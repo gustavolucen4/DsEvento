@@ -16,6 +16,7 @@ public class Atividade {
     private Integer id;
 
     private String nome;
+    @Column(columnDefinition = "TEXT")
     private String descricao;
     private Double price;
 
